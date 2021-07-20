@@ -7,8 +7,34 @@ body{
 }
 header{
 background: black;
+background-image: url("slike/papuk6.jpg");
+background-size: 100%;
+background-position: center;
 padding: 20px;
+height: 400px;
+text-align: center;
 }
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 40px;
+
+}
+
+header .logo a{
+	background-image: url("slike/papuk4.jpg");
+	background-size: 300px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 80px;
+	position: relative;
+	top: -40px;
+	text-indent: -9999999px;
+	width: 300px;
+
+}
+
 section{
 background: white;
 color: grey;
