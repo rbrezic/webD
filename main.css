@@ -5,6 +5,9 @@ body{
 	margin: 0;
 	padding: 0;
 }
+
+/* HEADER */
+
 header{
 background: black;
 background-image: url("slike/papuk6.jpg");
@@ -15,7 +18,8 @@ height: 400px;
 text-align: center;
 }
 header a{
-	color: white;
+	color: black;
+	font-size: 20px;
 	text-decoration: none;
 	text-transform: uppercase;
 	margin-top: 40px;
@@ -35,30 +39,51 @@ header .logo a{
 
 }
 
-section{
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	}
+	
+	nav li{
+	display: inline-block;
+	margin-right: 20px;
+	}
+
+	/*FEATURES*/
+.features{
 background: white;
 color: grey;
 padding: 20px;
 display: flex;
 flex-direction: row;
 }
+
+.features figure{
+	margin: auto;
+	text-transform: uppercase;
+	text-align: center;
+	width: 200px;
+}
+
+.features figure img{
+	border: 2px solid white;
+	border-radius: 50%;
+	box-shadow: gray 0 0  20px;
+	width: 200px;
+}
+
 div{
-background: blue;
+
 margin: auto;
 width: 100px;
 }
 
-ul{
-margin: 0;
-padding: 0;
-list-style-type: none;
-}
-li{
-display: inline-block;
-margin-right: 20px;
-}
 
 footer{
 background: black;
-padding: 20px;
+color: gray;
+font-size: 12px;
+text-align: center;
+padding: 20px 20px;
 }
