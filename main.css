@@ -20,6 +20,7 @@ text-align: center;
 header a{
 	color: black;
 	font-size: 20px;
+	font-weight: bold;
 	text-decoration: none;
 	text-transform: uppercase;
 	margin-top: 40px;
@@ -39,6 +40,10 @@ header .logo a{
 
 }
 
+header .mobile{
+	display: none;
+}
+
 nav ul{
 	margin: 0;
 	padding: 0;
@@ -50,6 +55,21 @@ nav ul{
 	margin-right: 20px;
 	}
 
+	/*RULES*/
+	@media screen and (max-width: 715px) {
+		header{
+			height: 200px;
+		}
+		header .mobile{
+			display: inline-block;
+		}
+		header .desktop{
+			display: none;
+		}
+		
+	}
+
+
 	/*FEATURES*/
 .features{
 background: white;
@@ -57,12 +77,14 @@ color: grey;
 padding: 20px;
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
 }
 
 .features figure{
 	margin: auto;
 	text-transform: uppercase;
 	text-align: center;
+	padding: 5px;
 	width: 200px;
 }
 
@@ -78,7 +100,15 @@ div{
 margin: auto;
 width: 100px;
 }
+/*RESPONSIVE RULES*/
+@media screen and (max-width: 715px) {
+	.features{
+		display: block;
+	}
+	
+}
 
+/*FOOTER*/
 
 footer{
 background: black;
@@ -87,3 +117,4 @@ font-size: 12px;
 text-align: center;
 padding: 20px 20px;
 }
+
