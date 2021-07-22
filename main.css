@@ -89,16 +89,12 @@ flex-wrap: wrap;
 
 .features figure img{
 	border: 2px solid white;
-	border-radius: 50%;
+	border-radius: 25%;
 	box-shadow: gray 0 0  20px;
 	width: 200px;
 }
 
-div{
 
-margin: auto;
-width: 100px;
-}
 /*RESPONSIVE RULES*/
 @media screen and (max-width: 715px) {
 	.features{
@@ -139,7 +135,7 @@ padding: 20px 20px;
 	width: 205%;
 	height: 0;
 	transition: .5s ease;
-	border-radius: 50%;
+	border-radius: 25%;
   }
   
   .container:hover .overlay {
