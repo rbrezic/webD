@@ -53,6 +53,10 @@ nav ul{
 	display: inline-block;
 	margin-right: 20px;
 	}
+	nav li:hover {
+		background-color: white;
+		border-radius: 10px;
+	}
 
 	/*RULES*/
 	@media screen and (max-width: 715px) {
@@ -152,4 +156,8 @@ padding: 20px 20px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
+  }
+  .text a{
+	text-decoration: none;
+	color: white;
   }
